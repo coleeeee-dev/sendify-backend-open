@@ -13,7 +13,7 @@ public class WebConfig implements WebMvcConfigurer {
                 // Orígenes permitidos (añadiremos el del frontend deployado luego)
                 .allowedOrigins(
                         "http://localhost:4200",        // Frontend Angular en local
-                        "https://TU-FRONTEND-PROD.com" // Reemplazar cuando tengas el dominio real del front
+                        "https://sendify-front.onrender.com" // Reemplazar cuando tengas el dominio real del front
                 )
                 .allowedMethods("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
